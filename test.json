@@ -1,0 +1,15 @@
+{
+  "Hey":"Listen",
+  "Fancy numbers":[1,2,3,4,5,6],
+  "bool":true,
+  "bools":[false,true,false,false,{
+      "do panliber":true,
+      "panliber on":{
+        "monday":false,
+        "tuesday":false,
+        "today":false,
+        "a boat":false
+      }
+    }],
+  "arr arr":[["Hey","Bats",2.24562],1]
+}
