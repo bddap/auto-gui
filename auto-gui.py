@@ -40,6 +40,8 @@ def auto_gui(python_object, name=''):
         return lambda : { key:di[key]() for key in di }
 
     def generic_edit(name,default,root):
+        try:    unicode
+        except: unicode = str        
         d = {
             list:list_edit,
             float:float_edit,
