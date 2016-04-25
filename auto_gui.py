@@ -34,7 +34,6 @@ def auto_gui(python_object, name=''):
         return lambda : [f() for f in l]
 
     def dict_edit(name,default,root):
-        print(root)
         n = Label(root,text=name); n.pack()
         f = Frame(root); f.pack()
         di = { key:generic_edit(key,default[key],f) for key in sorted(default) }
