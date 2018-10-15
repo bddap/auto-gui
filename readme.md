@@ -45,6 +45,8 @@ print(new_config)
 }
 ```
 
+Returns None if user cancels.
+
 ## Auto-gui was made to work with json.
 
 ```python
