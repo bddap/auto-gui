@@ -1,6 +1,8 @@
 ## Auto-gui
+
 ### Takes a python object.
-``` python
+
+```python
 config = {
   "Hey":"Listen",
   "Fancy ints":[1,2,3],
@@ -24,11 +26,14 @@ new_config = auto_gui(config)
 
 print(new_config)
 ```
+
 ### Displays a tkinter gui based on that object.
+
 ![gui demo](./example.png)
-Returns a new object when user is done.
---
-``` python
+
+## Returns a new object when user is done.
+
+```python
 {
   'bools': {'panliber on': {'tuesday': 0, 'a boat': 0, 'today': 0, 'monday': 0}},
   'Hey': 'Listen',
@@ -39,8 +44,10 @@ Returns a new object when user is done.
   'dict in list': [{'jape': 'pape'}, {'lol': 3.63983835676}]
 }
 ```
+
 ## Auto-gui was made to work with json.
-``` python
+
+```python
 import json
 fname = "config.json"
 with open(fname) as f:
